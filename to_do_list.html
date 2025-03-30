@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="to_do_list.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-heading">To-Do List</h1>
+        <div class="content">
+            <form id="task-form">
+                <h2>Add a New Task</h2>
+                <input type="text" id="task-name" placeholder="Task Name" required>
+                <textarea id="task-desc" placeholder="Description (Optional)"></textarea>
+                <select id="task-priority">
+                    <option value="Low">Low Priority</option>
+                    <option value="Medium">Medium Priority</option>
+                    <option value="High">High Priority</option>
+                </select>
+                <input type="datetime-local" id="task-due-date">
+                <button type="submit">Add Task</button>
+            </form>
+            <div id="task-list-container">
+                <h2>Tasks</h2>
+                <div id="task-list">
+                    <!-- Tasks will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="to_do_list.js"></script>
+</body>
+</html>
