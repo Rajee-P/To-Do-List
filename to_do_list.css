@@ -2,34 +2,34 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ede7f6; /* Soft violet-gray background */
-    color: #1a237e; /* Deep indigo text */
+    background-color: #ede7f6; 
+    color: #1a237e; 
 }
 
 .container {
-    max-width: 600px; /* Smaller container width */
+    max-width: 600px; 
     margin: 20px auto;
-    background: #ffffff; /* White container background */
-    background-color: #e8eaf6; /* Light violet background for the to-do list container */
-    padding: 15px; /* Reduced padding */
+    background: #ffffff; 
+    background-color: #e8eaf6; 
+    padding: 15px; 
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Softer shadow */
-    border: 1px solid #c5cae9; /* Violet border for better contrast */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #c5cae9; 
 }
 
 h1.main-heading {
     text-align: center;
-    color: #512da8; /* Violet text for the heading */
-    font-size: 2.2em; /* Smaller heading size */
+    color: #512da8; 
+    font-size: 2.2em;
     font-weight: bold;
-    text-shadow: 1px 1px 4px #d1c4e9; /* Subtle violet shadow */
-    margin-bottom: 15px; /* Reduced margin */
+    text-shadow: 1px 1px 4px #d1c4e9; 
+    margin-bottom: 15px; 
 }
 
 .content {
     display: flex;
-    gap: 15px; /* Reduced gap between form and task list */
-    flex-direction: row; /* Left-right layout */
+    gap: 15px; 
+    flex-direction: row; 
     align-items: flex-start;
 }
 
@@ -37,72 +37,72 @@ form {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Reduced gap between form elements */
-    background: #ede7f6; /* Soft violet background for the form */
-    padding: 15px; /* Reduced padding */
+    gap: 10px; 
+    background: #ede7f6; 
+    padding: 15px; 
     border-radius: 8px;
-    border: 1px solid #c5cae9; /* Violet border */
+    border: 1px solid #c5cae9; 
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 form h2 {
-    margin: 0 0 10px; /* Reduced margin */
-    color: #311b92; /* Dark violet text */
-    font-size: 1.4em; /* Smaller heading size */
+    margin: 0 0 10px; 
+    color: #311b92; 
+    font-size: 1.4em; 
     font-weight: bold;
 }
 
 input, textarea, select, button {
-    padding: 8px; /* Reduced padding */
-    font-size: 14px; /* Smaller input font size */
-    border: 1px solid #b39ddb; /* Light violet border */
+    padding: 8px; 
+    font-size: 14px; 
+    border: 1px solid #b39ddb; 
     border-radius: 6px;
     background-color: #ffffff;
-    color: #311b92; /* Dark violet text */
+    color: #311b92; 
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 input::placeholder, textarea::placeholder {
-    color: #b0bec5; /* Muted gray-blue placeholder text */
+    color: #b0bec5; 
 }
 
 input:focus, textarea:focus {
-    border-color: #673ab7; /* Medium violet border on focus */
-    box-shadow: 0 0 8px rgba(103, 58, 183, 0.5); /* Violet glow effect */
+    border-color: #673ab7; 
+    box-shadow: 0 0 8px rgba(103, 58, 183, 0.5); 
 }
 
 button {
-    background-color: #673ab7; /* Medium violet button */
+    background-color: #673ab7; 
     color: white;
     border: none;
-    border-radius: 6px; /* Slightly smaller border radius */
+    border-radius: 6px; 
     cursor: pointer;
     font-weight: bold;
-    padding: 8px 12px; /* Reduced padding */
-    font-size: 0.9em; /* Smaller button font size */
+    padding: 8px 12px; 
+    font-size: 0.9em; 
     transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
 }
 
 button:hover {
-    background-color: #4527a0; /* Darker violet on hover */
-    transform: scale(1.05); /* Slight zoom effect */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    background-color: #4527a0; 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 #task-list-container {
-    flex: 1.5; /* Slightly larger task list area */
-    background: #f3e5f5; /* Very light violet background for task list */
-    padding: 15px; /* Reduced padding */
+    flex: 1.5; 
+    background: #f3e5f5;
+    padding: 15px; 
     border-radius: 8px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     overflow-y: auto;
-    border: 1px solid #d1c4e9; /* Subtle violet border */
+    border: 1px solid #d1c4e9;
 }
 
 #task-list-container h2 {
-    margin: 0 0 10px; /* Reduced margin */
-    color: #311b92; /* Dark violet text */
-    font-size: 1.4em; /* Smaller heading size */
+    margin: 0 0 10px; 
+    color: #311b92;
+    font-size: 1.4em; 
     font-weight: bold;
 }
 
@@ -111,56 +111,56 @@ button:hover {
 }
 
 .task {
-    background: #ffffff; /* White background for tasks */
-    padding: 12px; /* Reduced padding */
-    border: 1px solid #b39ddb; /* Light violet border for tasks */
-    border-radius: 8px; /* Smaller border radius */
-    margin-bottom: 15px; /* Reduced margin */
+    background: #ffffff; 
+    padding: 12px; 
+    border: 1px solid #b39ddb; 
+    border-radius: 8px; 
+    margin-bottom: 15px; 
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .task:hover {
-    transform: translateY(-3px); /* Lift effect */
-    box-shadow: 0 4px 10px rgba(103, 58, 183, 0.2); /* Violet shadow on hover */
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 10px rgba(103, 58, 183, 0.2); 
 }
 
 .task h3 {
     margin: 0;
-    color: #311b92; /* Dark violet text */
-    font-size: 1.1em; /* Smaller task title size */
+    color: #311b92; 
+    font-size: 1.1em;
     font-weight: bold;
 }
 
 .task p {
-    margin: 5px 0; /* Reduced margin */
-    color: #546e7a; /* Muted blue-gray text */
+    margin: 5px 0; 
+    color: #546e7a; 
 }
 
 .task .meta {
     font-size: 0.95em;
-    color: #78909c; /* Muted metadata text */
+    color: #78909c;
 }
 
 .task.completed {
     text-decoration: line-through;
-    color: #90a4ae; /* Muted gray for completed tasks */
+    color: #90a4ae; 
 }
 
 .task button {
-    margin-left: 8px; /* Reduced margin */
-    background-color: #673ab7; /* Medium violet button */
+    margin-left: 8px; 
+    background-color: #673ab7; 
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 6px; /* Slightly smaller border radius */
-    padding: 6px 10px; /* Reduced padding */
-    font-size: 0.85em; /* Smaller button font size */
+    border-radius: 6px; 
+    padding: 6px 10px; 
+    font-size: 0.85em;
     transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
 }
 
 .task button:hover {
-    background-color: #4527a0; /* Darker violet on hover */
-    transform: scale(1.05); /* Slight zoom effect */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    background-color: #4527a0; 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
